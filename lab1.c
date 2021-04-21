@@ -11,7 +11,7 @@ double mySin(double x, double eps);
 
 int check(double input[12], double reference[12], double eps);
 
-double input[] = {0,M_PI/6, M_PI/6, M_PI/3, M_PI/2, M_PI, 3*M_PI/2, -M_PI/6, -M_PI/3, -M_PI/2, -M_PI, -3*M_PI/2 }; //инициализация входных значений
+double input[] = {0, 0, M_PI/6, M_PI/3, M_PI/2, M_PI, 3*M_PI/2, -M_PI/6, -M_PI/3, -M_PI/2, -M_PI, -3*M_PI/2 }; //инициализация входных значений
 double reference[12]; // подготовка массива для эталонных значений
 
 int main(void) {
